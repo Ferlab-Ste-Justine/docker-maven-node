@@ -6,5 +6,5 @@ RUN apt-get update -y && \
     apt-get upgrade -y && \
     apt-get install -y && \
     curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - && \
-    apt-get install -y nodejs
+    apt-get install -y nodejs make gcc g++ python
 
